@@ -1,0 +1,115 @@
+#section1 {
+  background-image: url("https://hsiaofu.github.io/sticky_top/img1.png");
+  min-height: 2400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: black;
+  padding: 20px;
+  position: relative;
+}
+
+#section1 h1 {
+  margin-bottom: 10px; 
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0; 
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 10px;
+}
+#section2 {
+  background-image: url("https://hsiaofu.github.io/sticky_top/img1-1.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section2 p {
+  margin-bottom: 10px; 
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0; 
+  padding: 10px;
+}
+#section3 {
+  background-image: url("https://hsiaofu.github.io/sticky_top/img1-2.jpg");
+  min-height: 1200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px; 
+}
+#section3 p1 {
+    background-color: lightgray; 
+    min-height: 50vh;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 5px;
+  }
+#section3 p2 {
+    background-color: lightgray; 
+    min-height: 10vh;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 5px;
+  }
+#section4 {
+    background-image: url("https://hsiaofu.github.io/sticky_top/img2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+#section5 {
+      background-image: url("https://hsiaofu.github.io/sticky_top/img3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+#section6 {
+      background-image: url("https://hsiaofu.github.io/sticky_top/img4.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+#section7 h1 {
+    background-color: rgba(85, 107, 118, 0.34); 
+    min-height: 20vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  .container-fluid {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #section1 h1 {
+    margin-bottom: 10px;
+    /* 添加下边距 */
+  }
